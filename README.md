@@ -8,7 +8,6 @@ Uses React.js without even Babel
 - Add simple interactivity using state and conditions embedded within React components
 
 ## Retrospective:
-When to leave Flexbox for CSS Grid.
 
 #### Problems with Flexbox not experienced with Grid
 
