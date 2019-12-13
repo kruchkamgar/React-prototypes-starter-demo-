@@ -1,0 +1,176 @@
+@media screen and (min-width:768px) and (max-width: 1439px) {
+  .icon.large { width: 3.125em; height: 3.125em; }
+  .dataRow .panel { padding: 30px 23px 36px; }
+  /* .dataRow .panel { flex: 1 0 10em; } */
+
+  .dataRow .text.container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 0 0 16px;
+  }
+
+}
+
+@media screen and (min-width:768px) {
+
+  .page.container { flex: 1 0 auto; }
+
+  .site .lead { display: none; }
+
+  #logo-container { display: flex; }
+  #notification-icon-container { display: none; }
+  #site-menu-icons-container { display: flex; }
+
+  #logo-img { display: initial; }
+  #notification-icon-img { display: none; }
+  #site-menu-icons-img { display: initial; height: 36px; }
+  .site.menu.container { height: 5em; }
+
+  .panel { margin: 13px 30px; }
+
+  .dataRow {
+    width: unset;
+    height: unset;
+    margin: 0 17px; /* consolidate with .panel? -- add class to .dataRow */
+    flex-flow: wrap;
+  }
+
+  .dataRow .panel {
+    display: flex;
+    flex: 1 0 18em;
+    margin: 13px 13px;
+  }
+
+  .dataRow .container { display: contents; }
+
+  .flexRow .panel {
+    margin: 13px 30px;
+  }
+
+  .chart .header { margin: 1em 0 1.75em; }
+
+  #revenueChart {
+    height: 348px;
+    background-image: url('../img/revenue.png');
+    background-size: 1086px;
+
+    margin-left: 5px;
+  }
+
+  #tripsByWeekdayChart {
+    height: 335px;
+    background-image: url('../img/tripsByWeekday.png');
+    background-size: 99%;
+    padding-bottom: 0;
+  }
+
+}
+
+
+
+/* 1440px */
+
+
+
+@media screen and (min-width:1440px) {
+
+  .page > .contents.container {
+    flex-flow: column;
+    width: 1198px;
+    margin: auto;
+  }
+
+  /* allow 2*30px for margins which show boxshadows */
+  /* .datavis.container {
+    flex: 0 0 1198px;
+  } */
+
+  .icons.wrapper {
+    display: unset;
+    flex: 0 0 1135px;
+  }
+    .icons.container {
+      display: flex;
+      margin: 0;
+    }
+
+    #hamburger-container { display: contents; }
+    #logo-container { display: contents; }
+    #site-menu-icons-container { display: contents; }
+    .site-menu-icons { margin: 0; }
+
+      #hamburger {
+        position: absolute;
+        left: 0; top: 0;
+        height: 4.75em;
+      }
+      #logo-img { height: 34px; }
+      #site-menu-icons-img { display: initial; height: 40px; }
+
+  .panel { padding: 15px 24px; }
+
+  .dataRow {
+    /* overflow: hidden; */
+    /* flex-flow: wrap; */
+    margin-bottom: 11px;
+    margin-left: 16px;
+  }
+
+  .dataRow .panel {
+    flex: 1 0 10em;
+    flex-flow: column;
+    margin: 14px 14px;
+    padding: 15px 0 22px 22px;
+  }
+
+  .flexRow {
+    margin: 12px 0 20px;
+    flex-flow: row;
+
+    padding-left: 18px;
+  }
+
+  .flexRow .panel {
+    margin: 13px;
+  }
+
+  .dataList {
+    flex: 0 0 322px;
+  }
+
+  .dataList .container.contents {
+    height: unset;
+    overflow: unset;
+  }
+
+  .dataList .header.container { margin: 1.1875em 0 3.5em; }
+
+    .dataItem { margin-top: 21px; }
+
+  /* perhaps use a grid layout to fix these margin irregularities */
+  /* allowance for the box-shadow */
+  #tripsChart.panel { margin-right: 30px; }
+
+  .lead.header {
+    desktop
+    font-size: 1.4em;
+    letter-spacing: .5px;
+    margin: 20px 12px;
+  }
+
+  #revenueChartPanel .header.contents {
+    margin: 0;
+    height: 11px;
+    padding: 2px 0 0 0;
+  }
+
+  #revenueChartPanel .header.container { margin: 1.1875em 0 2.5em; }
+  .header.container { margin: 1.1875em 0 2.875em; }
+  /* .header.container { margin: 1em 0 3.5em; } */
+
+  #revenueChartPanel { padding-bottom: 26px }
+
+  .background-image { background-size: 100%; }
+  /* .extra-large { font-size: 1.875em; } */
+  .extra-large { font-size: 2.75em; }
+}
