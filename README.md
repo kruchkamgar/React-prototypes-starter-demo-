@@ -8,9 +8,9 @@ Uses React.js without even Babel
 - Add simple interactivity using state and conditions embedded within React components
 
 ## Retrospective:
-Shows well, when to leave Flexbox for CSS Grid.
+When to leave Flexbox for CSS Grid.
 
-### Problems with Flexbox not experienced with Grid—
+#### Problems with Flexbox not experienced with Grid
 
   Responsive
   - Must specify items to hide (height/width and overflow property in flex box) 
