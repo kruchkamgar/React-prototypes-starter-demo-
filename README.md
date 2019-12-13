@@ -7,11 +7,13 @@ Uses React.js without even Babel
 - Organize code into components instead of large html files
 - Add simple interactivity using state and conditions embedded within React components
 
-# Retrospective:
-shows well, when to leave Flexbox for CSS grid
+## Retrospective:
+Shows well, when to leave Flexbox for CSS Grid.
+
+### Problems with Flexbox not experienced with Grid—
 
   Responsive
-  - (Must specify Hiding items (height/width and overflow property in flex box) 
+  - Must specify items to hide (height/width and overflow property in flex box) 
   - Easier margin specification
   - alignment across sections (header and body elements)
 
