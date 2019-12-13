@@ -14,7 +14,7 @@ class DataVisContent extends React.Component {
       //   </div>
       // <img src="img/Revenue.png"/>
       // </div>
-      create('h2', {key:1, className: "lead header small d-flex"}, 'Analytics'),
+      create('h2', {key:1, className: "lead header large d-flex"}, 'Analytics'),
       create('div', {key:2, id: 'revenueChartPanel', className: 'panel chart'}, [
         create('div', {key:1, className: 'chart header container d-flex line-height-pt75'}, [
           create(headerSize, {key:1, className: 'small dim contents'}, 'Revenue'),

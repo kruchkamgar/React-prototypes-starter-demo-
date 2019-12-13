@@ -21,6 +21,7 @@
   #notification-icon-container { display: none; }
   #site-menu-icons-container { display: flex; }
 
+  #hamburger { height: 4.75em; }
   #logo-img { display: initial; }
   #notification-icon-img { display: none; }
   #site-menu-icons-img { display: initial; height: 36px; }
@@ -99,11 +100,6 @@
     #site-menu-icons-container { display: contents; }
     .site-menu-icons { margin: 0; }
 
-      #hamburger {
-        position: absolute;
-        left: 0; top: 0;
-        height: 4.75em;
-      }
       #logo-img { height: 34px; }
       #site-menu-icons-img { display: initial; height: 40px; }
 
@@ -152,10 +148,11 @@
   #tripsChart.panel { margin-right: 30px; }
 
   .lead.header {
-    desktop
-    font-size: 1.4em;
+    display: block;
+    font-size: 1.8em;
     letter-spacing: .5px;
-    margin: 20px 12px;
+    margin: 60px 30px 15px;
+    font-weight: normal;
   }
 
   #revenueChartPanel .header.contents {

@@ -83,6 +83,8 @@ body { background-color: #f4f4f4; margin: 0; }
 }
 
 #hamburger {
+  position: absolute;
+  left: 0; top: 0;
     /* width: 65px; */
   /* mobile */
   height: 2.5em;
@@ -90,8 +92,8 @@ body { background-color: #f4f4f4; margin: 0; }
 }
 
 .container.vertical.menu {
-  padding-top: 6.5em;
-  margin-top: -3em;
+  padding-top: 10em;
+  /* margin-top: -3em; */
 
   flex: 0 0 auto;
 }
@@ -225,6 +227,8 @@ body { background-color: #f4f4f4; margin: 0; }
     font-size: 2.5em; */
     font-size: 1.875em;
   }
+
+  .large { }
 
   .size-default { font-size: .95em; }
 
