@@ -17,4 +17,4 @@ Get running NOW with interactive prototypes, in the most light-weight fashion po
   - alignment across sections (header and body elements)
 
   Decoration
-  - Control: box shadow (margin-circumscribed, with flexbox)
+  - grid offers control: box-shadow property (margin-bounded, with flexbox)
