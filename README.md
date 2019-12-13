@@ -13,8 +13,8 @@ Get running NOW with interactive prototypes, in the most light-weight fashion po
 
   Responsive
   - Must hack on css to hide items (height/width and overflow property in flex box). plenty of 'display: contents;' 
-  - Easier margin specification
-  - alignment across sections (header and body elements)
+  - Easier margin specification with Grid
+  - alignment across sections (header and body elements), means less work and maintenance with Grid
 
   Decoration
   - grid offers control: box-shadow property (margin-bounded, with flexbox)
